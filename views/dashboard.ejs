@@ -5,10 +5,10 @@
         <h1 class="mt-4" style="color: white;">Habit Tracker</h1>
     </div>
     <div class="col-md-2 mt-4">
-        <p class="lead float-right mb-3" style="color: white;">Welcome <%= user.name %></p>
+        <p class="lead float-right mb-3" style="color: rgb(215, 12, 12);">Welcome <b><%= user.name %></b></p>
     </div>
     <div class="col-md-2 mt-4">
-        <a href="/users/logout" class="btn btn-secondary">Logout</a>
+        <a href="/users/logout" class="btn btn-danger">Logout</a>
     </div>
 </div>
 <!-- Habit Container -->
@@ -28,7 +28,7 @@
     <%- include ("./partials/messages") %>
     <div class="habit">
         <form action="/dashboard" method="POST" class="habit-header mb-4">
-            <input type="text" name="content" required>
+            <input type="text" name="content" required placeholder="Enter your text here.." style="padding: 0 1rem;">
             <button type="submit" class="add-btn"><span class="fas fa-plus"></span></button>
         </form>
         <i class="fas fa-check-circle" style="color: rgb(143, 233, 58);"></i>
