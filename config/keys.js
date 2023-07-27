@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-const db='mongodb+srv://sardar:42LU2BTZEk0iNaQo@cluster0.yjoc2t7.mongodb.net/habit-tracker?retryWrites=true&w=majority';
+const db='mongodb+srv://fileshare1813:LK8i73GCMe4rSd6@cluster0.zf341md.mongodb.net/';
 
 const connectionparams={
     useNewUrlParser:true,
