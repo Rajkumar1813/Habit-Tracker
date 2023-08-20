@@ -1,5 +1,6 @@
 const mongoose = require('mongoose');
-const db='mongodb+srv://fileshare1813:nn1z8uDnOfaAafi8@cluster0.zf341md.mongodb.net/';
+const db='mongodb+srv://fileshare1813:nn1z8uDnOfaAafi8@cluster0.zf341md.mongodb.net/?retryWrites=true&w=majority';
+          // mongodb+srv://fileshare1813:nn1z8uDnOfaAafi8@cluster0.zf341md.mongodb.net/
 
 const connectionparams={
     useNewUrlParser:true,
